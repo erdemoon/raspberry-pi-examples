@@ -10,7 +10,7 @@ for i in range(7):
 	GPIO.setup(LED[i], GPIO.OUT)
 	GPIO.output(LED[i], False)
 
-while 0:
+while 1:
 	if len(WIN)==len(COUNT):
 		GT=GT-0.030
 		COUNT.append(1)
